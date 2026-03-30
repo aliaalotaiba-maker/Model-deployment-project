@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detection Result</title>
+</head>
+<body>
+    <h1>Detection Result</h1>
+
+    <h3>Uploaded Image:</h3>
+    <img src="{{ uploaded_image }}" width="300">
+
+    <h3>Final Prediction:</h3>
+    <p><strong>{{ detected_text }}</strong></p>
+
+    <p><strong>Confidence:</strong> {{ top_conf }}</p>
+
+    <br><br>
+    <a href="/">Back</a>
+</body>
+</html>
